@@ -3,6 +3,7 @@ import 'screens/homePage.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     title: 'eCommerce App',
     initialRoute: HomePage.id,
     routes: {HomePage.id: (context) => HomePage()},
