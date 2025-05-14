@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'screens/homePage.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     title: 'eCommerce App',
-    initialRoute: HomePage.id,
-    routes: {HomePage.id: (context) => HomePage()},
+    initialRoute: HomeScreen.id,
+    routes: {HomeScreen.id: (context) => HomeScreen()},
   ));
 }
